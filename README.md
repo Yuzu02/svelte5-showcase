@@ -1,11 +1,34 @@
-# 🚀 Svelte 5 Showcase
-
-A comprehensive demonstration of Svelte 5's revolutionary new features, built with modern tooling and beautiful UI. This project showcases the complete Svelte 5 ecosystem including Runes, Snippets, Enhanced State Management, Effects System, and Modern Event Handling.
-
 ![Svelte 5 Showcase](https://img.shields.io/badge/Svelte-5-ff3e00?style=for-the-badge&logo=svelte&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
+
+# 🚀 Svelte 5 Showcase
+
+A comprehensive demonstration of Svelte 5's revolutionary new features, built with modern tooling and beautiful UI. This project showcases the complete Svelte 5 ecosystem including Runes, Snippets, Enhanced State Management, Effects System, and Modern Event Handling.
+
+This project serves as a learning resource for developers looking to understand the new paradigms introduced in Svelte 5, including the powerful Runes system, the new Snippets templating system, and advanced state management patterns.
+
+## 📖 Table of Content
+
+- [Features Demonstrated](#-features-demonstrated)
+- [Tech Stack](#tech-stack)
+- [Quick Start](#-quick-start)
+- [Project Structure](#-project-structure)
+- [Component Showcase](#-component-showcase)
+  - [Runes Demo](#runes-demo)
+  - [Snippets Demo](#snippets-demo)
+  - [State Management Demo](#state-management-demo)
+  - [Effects Demo](#effects-demo)
+  - [Event Handler Demo](#event-handler-demo)
+- [Development Patterns](#-development-patterns)
+- [Common Gotchas & Solutions](#-common-gotchas--solutions)
+- [Key Learnings](#-key-learnings)
+- [Contributing](#-contributing)
+- [Resources](#-resources)
+- [License](#-license)
 
 ## ✨ Features Demonstrated
 
@@ -49,13 +72,14 @@ A comprehensive demonstration of Svelte 5's revolutionary new features, built wi
 - **Form handling**: Modern form submission and validation patterns
 - **Accessibility**: ARIA labels and proper semantic elements
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack {#tech-stack}
 
 - **[Svelte 5](https://svelte.dev/)**: The reactive UI framework with Runes
 - **[SvelteKit](https://kit.svelte.dev/)**: Full-stack web framework
 - **[TypeScript](https://www.typescriptlang.org/)**: Type-safe JavaScript
 - **[Bun](https://bun.sh/)**: Fast all-in-one JavaScript runtime & toolkit
 - **[Tailwind CSS](https://tailwindcss.com/)**: Utility-first CSS framework
+- **[Biome](https://biomejs.dev/)**: Code formatter and linter
 - **[Vite](https://vitejs.dev/)**: Next generation frontend tooling
 
 ## 🚀 Quick Start
@@ -69,7 +93,7 @@ A comprehensive demonstration of Svelte 5's revolutionary new features, built wi
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Yuzu02/svelte5-showcase
    cd svelte5-showcase
    ```
 
@@ -101,6 +125,7 @@ bun run check        # Run type checking
 bun run check:watch  # Run type checking in watch mode
 bun run lint         # Run linter
 bun run format       # Format code with Prettier
+bun run all          # Run all checks (type, lint, format)
 ```
 
 ## 📚 Project Structure
